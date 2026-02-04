@@ -104,8 +104,8 @@ public class DeleteAccountServlet extends HttpServlet {
 	}
 	
 	private void sendFarewellEmail(String to) {
-        final String senderEmail = "indiair039@gmail.com"; // Replace with your email
-        final String senderPassword = "fzve pgmw iddz eyem"; // Use App Password for Gmail
+        final String senderEmail = "demo@gmail.com"; // Replace with your email
+        final String senderPassword = "*****"; // Use App Password for Gmail
 
         Properties props = new Properties();
         props.put("mail.smtp.host", "smtp.gmail.com");
@@ -132,10 +132,11 @@ public class DeleteAccountServlet extends HttpServlet {
                     + "IndiAir Team");
 
             Transport.send(message);
-            System.out.println("✅ Farewell Email Sent Successfully to: " + to);
+            System.out.println("Farewell Email Sent Successfully to: " + to);
         } catch (MessagingException e) {
             e.printStackTrace();
         }
     }
 
 }
+
