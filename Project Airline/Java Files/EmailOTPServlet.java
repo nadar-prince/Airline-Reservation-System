@@ -39,8 +39,8 @@ public class EmailOTPServlet extends HttpServlet {
             Random rand = new Random();
             int otpValue = rand.nextInt(900000) + 100000;
 
-            String senderEmail = "indiair039@gmail.com"; 
-            String senderPassword = "fzve pgmw iddz eyem"; 
+            String senderEmail = "demo@gmail.com"; // replace with your email
+            String senderPassword = "******"; //replace with your app key 
             Properties props = new Properties();
             props.put("mail.smtp.host", "smtp.gmail.com");
             props.put("mail.smtp.socketFactory.port", "465");
@@ -85,4 +85,5 @@ public class EmailOTPServlet extends HttpServlet {
             dispatcher.forward(request, response);
         }
     }
+
 }
