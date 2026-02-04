@@ -29,8 +29,9 @@ This project is a comprehensive Airline Reservation System built to modernize th
 * MySQL Database
 * Eclipse IDE
 
-## Project Demo
+## 🪧 Project Demo
 <div align="center">
-  <a href="https://youtu.be/FdfRoIjlZeM?si=rQWJ2vK24KrZAo5y">
+  <a href="https://youtu.be/FdfRoIjlZeM">
+    <img src="https://img.youtube.com/vi/FdfRoIjlZeM/0.jpg" alt="Watch the Demo" style="width:100%;">
   </a>
-</div>
+</div>>
