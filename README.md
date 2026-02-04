@@ -27,6 +27,7 @@ This project is a comprehensive Airline Reservation System built to modernize th
 * Java Development Kit (JDK)
 * Apache Tomcat Server
 * MySQL Database
+* Eclipse IDE
 
 ## 📸 Screenshots
 
