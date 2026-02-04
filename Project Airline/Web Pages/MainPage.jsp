@@ -321,7 +321,7 @@ s0.parentNode.insertBefore(s1,s0);
             <select id="contact-options" onchange="handleSelection(this.value)" style="padding: 5px; font-size: 16px;">
                 <option value="" disabled selected>Contact Us</option>
                 <option value="mobile">1800120139</option>
-                <option value="email">indiair6239@gmail.com</option>
+                <option value="email">demo@gmail.com</option>
             </select>
         </li>
     </ul>
@@ -333,7 +333,7 @@ s0.parentNode.insertBefore(s1,s0);
             if (value === "mobile") {
                 window.location.href = "tel:+1800120139";
             } else if (value === "email") {
-                window.location.href = "mailto:indiair6239@gamil.com"; 
+                window.location.href = "mailto:demo@gamil.com"; 
             }
         }
     </script>
@@ -381,4 +381,5 @@ s0.parentNode.insertBefore(s1,s0);
                 </form>  
 </body>
 <footer>Copyright © 2025 IndiAir All Rights Reserved</footer>
+
 </html>
