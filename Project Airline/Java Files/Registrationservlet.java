@@ -129,8 +129,8 @@ import javax.mail.internet.MimeMessage;
 	}
  }
 private void sendWelcomeEmail(String to, String fname) {
-    final String senderEmail = "indiair039@gmail.com"; 
-    final String senderPassword = "fzve pgmw iddz eyem"; 
+    final String senderEmail = "demo@gmail.com"; //replace with your email
+    final String senderPassword = "*****"; //relpace with your your app key
 
     Properties props = new Properties();
     props.put("mail.smtp.host", "smtp.gmail.com");
@@ -159,9 +159,10 @@ private void sendWelcomeEmail(String to, String fname) {
                 + "IndiAir Team");
 
         Transport.send(message);
-        System.out.println("✅ Welcome Email Sent Successfully to: " + to);
+        System.out.println("Welcome Email Sent Successfully to: " + to);
     } catch (MessagingException e) {
         e.printStackTrace();
     }
 }
 }
+
