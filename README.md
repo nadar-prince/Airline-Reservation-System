@@ -34,4 +34,4 @@ This project is a comprehensive Airline Reservation System built to modernize th
   <a href="https://youtu.be/FdfRoIjlZeM">
     <img src="https://img.youtube.com/vi/FdfRoIjlZeM/0.jpg" alt="Watch the Demo" style="width:100%;">
   </a>
-</div>>
+</div>
