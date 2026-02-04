@@ -10,7 +10,7 @@ This project is a comprehensive Airline Reservation System built to modernize th
 
 * **Real-Time Booking:** dynamic flight searching and instant seat reservation capabilities.
 * **Secure Authentication:** Robust user login and registration system to protect user data.
-* **Payment Integration:** Integrated payment gateway for secure and efficient transaction processing.
+* **Payment Interface Demo:** Designed a checkout page that simulates secure data entry and validation for booking confirmations.
 * **Intuitive UI:** A user-friendly interface designed to enhance the overall booking experience and reduce user friction.
 
 ## 🛠️ Tech Stack
